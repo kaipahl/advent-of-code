@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-2024": "browser-sync start --server 'aoc-2024' --port 3018 --files 'aoc-2024' --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaipahl/advent-of-code.git"
+  },
+  "author": "Kai Pahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaipahl/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/kaipahl/advent-of-code#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  }
+}
